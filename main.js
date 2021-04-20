@@ -38,7 +38,23 @@ document.addEventListener('DOMContentLoaded', () => {
             cells: [1, BOARDWIDTH + 1, BOARDWIDTH * 2 + 1, BOARDWIDTH * 3 + 1],
             width: 4,
             color: 'iFigure',
+        },
+        {
+            cells: [0, 1, BOARDWIDTH, BOARDWIDTH * 2, BOARDWIDTH * 2 + 1],
+            width: 3,
+            color: 'pFigure',
+        },
+              {
+            cells: [0, 1, 2, BOARDWIDTH+2, BOARDWIDTH * 2+2],
+            width: 3,
+            color: 'bcFigure',
+        },
+                      {
+            cells: [0, BOARDWIDTH + 1, BOARDWIDTH * 2 + 2],
+            width: 3,
+            color: 'dFigure',
         }
+
     ]
 
     var gameFinished = false;
